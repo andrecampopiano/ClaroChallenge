@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F30AF73F20E1A8E0003A34F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AF73E20E1A8E0003A34F0 /* AppDelegate.swift */; };
+		F30AF74120E1A8E0003A34F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AF74020E1A8E0003A34F0 /* ViewController.swift */; };
+		F30AF74420E1A8E0003A34F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30AF74220E1A8E0003A34F0 /* Main.storyboard */; };
+		F30AF74720E1A8E0003A34F0 /* ClaroChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F30AF74520E1A8E0003A34F0 /* ClaroChallenge.xcdatamodeld */; };
+		F30AF74920E1A8E0003A34F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F30AF74820E1A8E0003A34F0 /* Assets.xcassets */; };
+		F30AF74C20E1A8E0003A34F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F30AF74A20E1A8E0003A34F0 /* LaunchScreen.storyboard */; };
+		F30AF75720E1A8E0003A34F0 /* ClaroChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AF75620E1A8E0003A34F0 /* ClaroChallengeTests.swift */; };
+		F30AF76220E1A8E0003A34F0 /* ClaroChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AF76120E1A8E0003A34F0 /* ClaroChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F30AF75320E1A8E0003A34F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30AF73320E1A8E0003A34F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30AF73A20E1A8E0003A34F0;
+			remoteInfo = ClaroChallenge;
+		};
+		F30AF75E20E1A8E0003A34F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F30AF73320E1A8E0003A34F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F30AF73A20E1A8E0003A34F0;
+			remoteInfo = ClaroChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F30AF73B20E1A8E0003A34F0 /* ClaroChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClaroChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30AF73E20E1A8E0003A34F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F30AF74020E1A8E0003A34F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F30AF74320E1A8E0003A34F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F30AF74620E1A8E0003A34F0 /* ClaroChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClaroChallenge.xcdatamodel; sourceTree = "<group>"; };
+		F30AF74820E1A8E0003A34F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F30AF74B20E1A8E0003A34F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F30AF74D20E1A8E0003A34F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30AF75220E1A8E0003A34F0 /* ClaroChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaroChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30AF75620E1A8E0003A34F0 /* ClaroChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaroChallengeTests.swift; sourceTree = "<group>"; };
+		F30AF75820E1A8E0003A34F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F30AF75D20E1A8E0003A34F0 /* ClaroChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClaroChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30AF76120E1A8E0003A34F0 /* ClaroChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaroChallengeUITests.swift; sourceTree = "<group>"; };
+		F30AF76320E1A8E0003A34F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F30AF73820E1A8E0003A34F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30AF74F20E1A8E0003A34F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30AF75A20E1A8E0003A34F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F30AF73220E1A8E0003A34F0 = {
+			isa = PBXGroup;
+			children = (
+				F30AF73D20E1A8E0003A34F0 /* ClaroChallenge */,
+				F30AF75520E1A8E0003A34F0 /* ClaroChallengeTests */,
+				F30AF76020E1A8E0003A34F0 /* ClaroChallengeUITests */,
+				F30AF73C20E1A8E0003A34F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F30AF73C20E1A8E0003A34F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F30AF73B20E1A8E0003A34F0 /* ClaroChallenge.app */,
+				F30AF75220E1A8E0003A34F0 /* ClaroChallengeTests.xctest */,
+				F30AF75D20E1A8E0003A34F0 /* ClaroChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F30AF73D20E1A8E0003A34F0 /* ClaroChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				F30AF73E20E1A8E0003A34F0 /* AppDelegate.swift */,
+				F30AF74020E1A8E0003A34F0 /* ViewController.swift */,
+				F30AF74220E1A8E0003A34F0 /* Main.storyboard */,
+				F30AF74820E1A8E0003A34F0 /* Assets.xcassets */,
+				F30AF74A20E1A8E0003A34F0 /* LaunchScreen.storyboard */,
+				F30AF74D20E1A8E0003A34F0 /* Info.plist */,
+				F30AF74520E1A8E0003A34F0 /* ClaroChallenge.xcdatamodeld */,
+			);
+			path = ClaroChallenge;
+			sourceTree = "<group>";
+		};
+		F30AF75520E1A8E0003A34F0 /* ClaroChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F30AF75620E1A8E0003A34F0 /* ClaroChallengeTests.swift */,
+				F30AF75820E1A8E0003A34F0 /* Info.plist */,
+			);
+			path = ClaroChallengeTests;
+			sourceTree = "<group>";
+		};
+		F30AF76020E1A8E0003A34F0 /* ClaroChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F30AF76120E1A8E0003A34F0 /* ClaroChallengeUITests.swift */,
+				F30AF76320E1A8E0003A34F0 /* Info.plist */,
+			);
+			path = ClaroChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F30AF73A20E1A8E0003A34F0 /* ClaroChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30AF76620E1A8E0003A34F0 /* Build configuration list for PBXNativeTarget "ClaroChallenge" */;
+			buildPhases = (
+				F30AF73720E1A8E0003A34F0 /* Sources */,
+				F30AF73820E1A8E0003A34F0 /* Frameworks */,
+				F30AF73920E1A8E0003A34F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClaroChallenge;
+			productName = ClaroChallenge;
+			productReference = F30AF73B20E1A8E0003A34F0 /* ClaroChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F30AF75120E1A8E0003A34F0 /* ClaroChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30AF76920E1A8E0003A34F0 /* Build configuration list for PBXNativeTarget "ClaroChallengeTests" */;
+			buildPhases = (
+				F30AF74E20E1A8E0003A34F0 /* Sources */,
+				F30AF74F20E1A8E0003A34F0 /* Frameworks */,
+				F30AF75020E1A8E0003A34F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30AF75420E1A8E0003A34F0 /* PBXTargetDependency */,
+			);
+			name = ClaroChallengeTests;
+			productName = ClaroChallengeTests;
+			productReference = F30AF75220E1A8E0003A34F0 /* ClaroChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F30AF75C20E1A8E0003A34F0 /* ClaroChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F30AF76C20E1A8E0003A34F0 /* Build configuration list for PBXNativeTarget "ClaroChallengeUITests" */;
+			buildPhases = (
+				F30AF75920E1A8E0003A34F0 /* Sources */,
+				F30AF75A20E1A8E0003A34F0 /* Frameworks */,
+				F30AF75B20E1A8E0003A34F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F30AF75F20E1A8E0003A34F0 /* PBXTargetDependency */,
+			);
+			name = ClaroChallengeUITests;
+			productName = ClaroChallengeUITests;
+			productReference = F30AF75D20E1A8E0003A34F0 /* ClaroChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F30AF73320E1A8E0003A34F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Andre Luis Campopiano";
+				TargetAttributes = {
+					F30AF73A20E1A8E0003A34F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F30AF75120E1A8E0003A34F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F30AF73A20E1A8E0003A34F0;
+					};
+					F30AF75C20E1A8E0003A34F0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F30AF73A20E1A8E0003A34F0;
+					};
+				};
+			};
+			buildConfigurationList = F30AF73620E1A8E0003A34F0 /* Build configuration list for PBXProject "ClaroChallenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F30AF73220E1A8E0003A34F0;
+			productRefGroup = F30AF73C20E1A8E0003A34F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F30AF73A20E1A8E0003A34F0 /* ClaroChallenge */,
+				F30AF75120E1A8E0003A34F0 /* ClaroChallengeTests */,
+				F30AF75C20E1A8E0003A34F0 /* ClaroChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F30AF73920E1A8E0003A34F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30AF74C20E1A8E0003A34F0 /* LaunchScreen.storyboard in Resources */,
+				F30AF74920E1A8E0003A34F0 /* Assets.xcassets in Resources */,
+				F30AF74420E1A8E0003A34F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30AF75020E1A8E0003A34F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30AF75B20E1A8E0003A34F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F30AF73720E1A8E0003A34F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30AF74120E1A8E0003A34F0 /* ViewController.swift in Sources */,
+				F30AF74720E1A8E0003A34F0 /* ClaroChallenge.xcdatamodeld in Sources */,
+				F30AF73F20E1A8E0003A34F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30AF74E20E1A8E0003A34F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30AF75720E1A8E0003A34F0 /* ClaroChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F30AF75920E1A8E0003A34F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F30AF76220E1A8E0003A34F0 /* ClaroChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F30AF75420E1A8E0003A34F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30AF73A20E1A8E0003A34F0 /* ClaroChallenge */;
+			targetProxy = F30AF75320E1A8E0003A34F0 /* PBXContainerItemProxy */;
+		};
+		F30AF75F20E1A8E0003A34F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F30AF73A20E1A8E0003A34F0 /* ClaroChallenge */;
+			targetProxy = F30AF75E20E1A8E0003A34F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F30AF74220E1A8E0003A34F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30AF74320E1A8E0003A34F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F30AF74A20E1A8E0003A34F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F30AF74B20E1A8E0003A34F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F30AF76420E1A8E0003A34F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F30AF76520E1A8E0003A34F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F30AF76720E1A8E0003A34F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM2WYKE6E;
+				INFOPLIST_FILE = ClaroChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.campopiano.ClaroChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F30AF76820E1A8E0003A34F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM2WYKE6E;
+				INFOPLIST_FILE = ClaroChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.campopiano.ClaroChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F30AF76A20E1A8E0003A34F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM2WYKE6E;
+				INFOPLIST_FILE = ClaroChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.campopiano.ClaroChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClaroChallenge.app/ClaroChallenge";
+			};
+			name = Debug;
+		};
+		F30AF76B20E1A8E0003A34F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM2WYKE6E;
+				INFOPLIST_FILE = ClaroChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.campopiano.ClaroChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClaroChallenge.app/ClaroChallenge";
+			};
+			name = Release;
+		};
+		F30AF76D20E1A8E0003A34F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM2WYKE6E;
+				INFOPLIST_FILE = ClaroChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.campopiano.ClaroChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClaroChallenge;
+			};
+			name = Debug;
+		};
+		F30AF76E20E1A8E0003A34F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FLM2WYKE6E;
+				INFOPLIST_FILE = ClaroChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.campopiano.ClaroChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClaroChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F30AF73620E1A8E0003A34F0 /* Build configuration list for PBXProject "ClaroChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30AF76420E1A8E0003A34F0 /* Debug */,
+				F30AF76520E1A8E0003A34F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30AF76620E1A8E0003A34F0 /* Build configuration list for PBXNativeTarget "ClaroChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30AF76720E1A8E0003A34F0 /* Debug */,
+				F30AF76820E1A8E0003A34F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30AF76920E1A8E0003A34F0 /* Build configuration list for PBXNativeTarget "ClaroChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30AF76A20E1A8E0003A34F0 /* Debug */,
+				F30AF76B20E1A8E0003A34F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F30AF76C20E1A8E0003A34F0 /* Build configuration list for PBXNativeTarget "ClaroChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F30AF76D20E1A8E0003A34F0 /* Debug */,
+				F30AF76E20E1A8E0003A34F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F30AF74520E1A8E0003A34F0 /* ClaroChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F30AF74620E1A8E0003A34F0 /* ClaroChallenge.xcdatamodel */,
+			);
+			currentVersion = F30AF74620E1A8E0003A34F0 /* ClaroChallenge.xcdatamodel */;
+			path = ClaroChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F30AF73320E1A8E0003A34F0 /* Project object */;
+}
