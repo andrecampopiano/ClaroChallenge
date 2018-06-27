@@ -8,6 +8,6 @@ Desafio ios claro
 - Carthage
 
 # Before Build
-Before build the project please run a 'pod install' and 'carthage update'
+Before build the project please run a `pod install` and `carthage update`
 
 
