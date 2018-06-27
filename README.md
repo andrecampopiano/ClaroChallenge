@@ -1,4 +1,4 @@
-# claro_challenge_ios
+# claro challenge iOS
 Desafio ios claro
 
 # Requirements
