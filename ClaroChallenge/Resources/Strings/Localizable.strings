@@ -1,0 +1,21 @@
+/* 
+  Localizable.strings
+  ClaroChallenge
+
+  Created by Andre Luis Campopiano on 26/06/2018.
+  Copyright © 2018 Andre Luis Campopiano. All rights reserved.
+*/
+
+// Strings
+"mainTitle" = "NMDB";
+"upcomingMovies" = "Upcoming Movies";
+"popularMovies" = "Popular Movies";
+
+// Errors
+"friendlyErrorTitle" = "=(";
+"friendlyError" = "Something went wrong. Please try again.";
+"errorParseData" = "Error Parsing Data: ";
+"offlineMode" = "Seems you have no Connection.";
+"httpError" = "Http error: ";
+"invalidURL" = "Invalid URL Request";
+"genericError" = "We are facing some problems here.";

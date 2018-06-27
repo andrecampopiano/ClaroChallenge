@@ -1,5 +1,84 @@
 line_length:
   - 200 # warning
   - 300 # error
-disabled_rules:
+
+disabled_rules: # rule identifiers to exclude from running
   - trailing_whitespace
+
+opt_in_rules: # some rules are only opt-in
+
+included: # paths to include during linting. `--path` is ignored if present.
+  - ClaroChallenge/Source
+  
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - Carthage
+
+type_name:
+ min_length: 1
+ max_length:
+  warning: 60
+  error: 70
+        
+missing_docs: warning
+trailing_semicolon: error
+variable_name:
+  min_length:
+    error: 1
+
+syntactic_sugar:
+  severity: error
+
+vertical_parameter_alignment:
+  severity: error
+
+empty_parentheses_with_trailing_closure:
+  severity: error
+
+closure_parameter_position:
+  severity: error
+
+redundant_void_return:
+  severity: error
+
+redundant_optional_initialization:
+  severity: error
+
+unused_closure_parameter:
+ severity: error
+
+opening_brace:
+  severity: error
+
+implicit_getter:
+  severity: error
+
+comma:  
+  severity: error
+
+weak_delegate:
+  severity: error
+
+class_delegate_protocol:
+  severity: error
+
+todo:
+  severity: error
+
+colon:
+  severity: error
+
+mark:
+  severity: error
+  
+file_length: 
+  error: 500
+
+cyclomatic_complexity:
+ error: 10
+
+function_body_length:
+ error: 40
+
+type_body_length:
+ warning: 200

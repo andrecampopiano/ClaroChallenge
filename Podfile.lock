@@ -1,16 +1,38 @@
 PODS:
+  - ElasticTransition (3.1.2):
+    - MotionAnimation (~> 0.1.3)
+  - MotionAnimation (0.1.3)
   - SwiftLint (0.26.0)
 
 DEPENDENCIES:
+  - ElasticTransition (from `https://github.com/nucci/ElasticTransition.git`, branch `swift4`)
+  - MotionAnimation (from `https://github.com/nucci/MotionAnimation.git`)
   - SwiftLint
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - SwiftLint
 
+EXTERNAL SOURCES:
+  ElasticTransition:
+    :branch: swift4
+    :git: https://github.com/nucci/ElasticTransition.git
+  MotionAnimation:
+    :git: https://github.com/nucci/MotionAnimation.git
+
+CHECKOUT OPTIONS:
+  ElasticTransition:
+    :commit: 94b7dd9eec96061472bd4cf8f975bca17a78659b
+    :git: https://github.com/nucci/ElasticTransition.git
+  MotionAnimation:
+    :commit: 882819e1cda400f5607aff7df0821c9f64bafe58
+    :git: https://github.com/nucci/MotionAnimation.git
+
 SPEC CHECKSUMS:
+  ElasticTransition: e592d2d4467d1251158fbaf6099b34919771f50e
+  MotionAnimation: 04aa5b84b09989f0b753e030bd8558745523399e
   SwiftLint: f6b83e8d95ee1e91e11932d843af4fdcbf3fc764
 
-PODFILE CHECKSUM: 017f9d2a52de7e32aa3cae1c8753ac666d7bd795
+PODFILE CHECKSUM: b768136edfd66debab9e4fa37ba055b55480b6ee
 
 COCOAPODS: 1.5.3
