@@ -115,7 +115,7 @@ class DetailsView: UIView {
         var runtimeString = ""
         
         if let genres = genres {
-            genresString = genres.flatMap({ (gnr) -> String? in
+            genresString = genres.compactMap({ (gnr) -> String? in
                 gnr.name
             }).joined(separator: ", ")
         }

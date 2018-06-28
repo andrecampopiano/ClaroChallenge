@@ -19,7 +19,7 @@ struct ApiProvider {
     static let apiSecret = "1f54bd990f1cdfb230adb312546d765d"
     
     /// Language Device
-    static let language = Locale.current.languageCode
+    static let language = Locale.preferredLanguages.first
     
     /// Shared Networking Provider used to access API Services
     static var sharedProvider: NetworkProvider {
