@@ -12,6 +12,7 @@ import Reachability
 typealias MovieListUICallback = (@escaping () throws -> MovieList?) -> Void
 typealias MovieUICallback = (@escaping () throws -> Movie?) -> Void
 typealias CreditsUICallback = (@escaping () throws -> Credits?) -> Void
+typealias TrailerListUICallback = (@escaping () throws -> TrailerList) -> Void
 
 class MovieBusiness {
     
@@ -251,6 +252,52 @@ class MovieBusiness {
                 throw BusinessError.parse("Error parsing request parameters: MovieBusiness.credits")
             }
         }
+    }
+    
+    
+    /// Trailer Business Rules
+    ///
+    /// - Parameters:
+    ///   - identifier: movie identifier
+    ///   - completion: completion callback
+    func trailersMovies(identifier: Int, _ completion: @escaping TrailerListUICallback) {
+        
+        guard Reachability.isConnected else {
+            completion { throw BusinessError.offlineMode }
+            return
+        }
+        
+        do {
+            let trailerRequest = TrailerRequest()
+            let request = try JSONEncoder().encode(trailerRequest)
+            let parameters: NetworkParameters = (nil, request)
+            
+            provider.trailer(withParameters: parameters, movieId: String(identifier)) { (result) in
+                do {
+                    guard let trailerResults = try result() else {
+                        throw BusinessError.parse("Could not parse response Data: MovieBusiness.trailers")
+                    }
+                    
+                    guard let trailersList = try? JSONDecoder().decode(TrailerList.self, from: trailerResults) else {
+                        throw BusinessError.parse("Could not parse response Json into Object: MovieBusiness.trailers")
+                    }
+                    
+                    if trailersList.results == nil {
+                        throw BusinessError.parse("Could not parse results: MovieBusiness.trailers")
+                    }
+                    completion { trailersList }
+                    
+                } catch {
+                    completion { throw error }
+                }
+            }
+            
+        } catch {
+            completion {
+                throw BusinessError.parse("Error parsing request parameters: MovieBusiness.trailers")
+            }
+        }
+        
     }
 }
 

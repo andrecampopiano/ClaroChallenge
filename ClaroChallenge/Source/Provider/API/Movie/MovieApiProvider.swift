@@ -90,4 +90,22 @@ class MovieApiProvider: MovieApiProtocol {
         })
     }
     
+    
+    /// Fetch Trailer Movie
+    ///
+    /// - Parameters:
+    ///   - parameters: api parameters
+    ///   - movieId: movie identifier
+    ///   - completion: completion callback
+    func trailer(withParameters parameters: NetworkParameters,
+                 movieId: String, _ completion: @escaping MovieCallback) {
+        _ = ApiProvider.sharedProvider.GET("\(movieEndpoint)\(movieId)/videos",
+            parameters: parameters,
+            header: nil,
+            completion: { (result) in
+                completion {
+                return try result()
+            }
+        })
+    }
 }

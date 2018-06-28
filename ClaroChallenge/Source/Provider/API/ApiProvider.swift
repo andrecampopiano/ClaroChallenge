@@ -16,7 +16,7 @@ struct ApiProvider {
     static let apiVersion = "3"
     
     /// Auth header Key
-    static let apiSecret = "1f54bd990f1cdfb230adb312546d765d"
+    static let apiSecret = "7523fe2b6e8e8c50c89ad56d031619cb"
     
     /// Language Device
     static let language = Locale.preferredLanguages.first

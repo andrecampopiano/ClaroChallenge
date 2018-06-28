@@ -1,5 +1,5 @@
 //
-//  TrailerListRequest.swift
+//  TrailerRequest.swift
 //  ClaroChallenge
 //
 //  Created by Andre Luis Campopiano on 28/06/2018.
@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct TrailerListRequest: Codable {
+struct TrailerRequest: Codable {
     
     let apiKey = ApiProvider.apiSecret
     let language = ApiProvider.language

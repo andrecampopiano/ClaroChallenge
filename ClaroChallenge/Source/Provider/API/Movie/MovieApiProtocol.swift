@@ -49,4 +49,13 @@ protocol MovieApiProtocol {
                  movieId: String,
                  _ completion: @escaping MovieCallback)
     
+    /// Fetch Trailers
+    ///
+    /// - Parameters:
+    ///   - parameters: api parameters
+    ///   - movieId: movie identifier
+    ///   - completion: completion callback
+    func trailer(withParameters parameters: NetworkParameters,
+                 movieId: String,
+                 _ completion: @escaping MovieCallback)
 }

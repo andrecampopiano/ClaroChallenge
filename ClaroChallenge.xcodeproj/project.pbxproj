@@ -59,7 +59,7 @@
 		F30AF7F920E34937003A34F0 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30AF7D120E3395C003A34F0 /* Reachability.framework */; };
 		F30AF7FA20E34937003A34F0 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30AF7F520E33F91003A34F0 /* SwiftMessages.framework */; };
 		F30AF7FE20E34B77003A34F0 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AF7FD20E34B77003A34F0 /* ViewExtension.swift */; };
-		F31FC0EE20E5A0790049B449 /* TrailerListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC0ED20E5A0790049B449 /* TrailerListRequest.swift */; };
+		F31FC0EE20E5A0790049B449 /* TrailerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC0ED20E5A0790049B449 /* TrailerRequest.swift */; };
 		F31FC0F020E5A1770049B449 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC0EF20E5A1770049B449 /* Trailer.swift */; };
 		F31FC0F220E5A2CA0049B449 /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC0F120E5A2C90049B449 /* TrailerList.swift */; };
 /* End PBXBuildFile section */
@@ -144,7 +144,7 @@
 		F30AF7F320E33ED4003A34F0 /* HandleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleError.swift; sourceTree = "<group>"; };
 		F30AF7F520E33F91003A34F0 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = Carthage/Build/iOS/SwiftMessages.framework; sourceTree = "<group>"; };
 		F30AF7FD20E34B77003A34F0 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
-		F31FC0ED20E5A0790049B449 /* TrailerListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerListRequest.swift; sourceTree = "<group>"; };
+		F31FC0ED20E5A0790049B449 /* TrailerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerRequest.swift; sourceTree = "<group>"; };
 		F31FC0EF20E5A1770049B449 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
 		F31FC0F120E5A2C90049B449 /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
 		F744B52B33255318AB3E336F /* Pods-ClaroChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClaroChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClaroChallengeUITests/Pods-ClaroChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -416,7 +416,7 @@
 			children = (
 				F30AF7D520E33A08003A34F0 /* MovieListRequest.swift */,
 				F30AF7EE20E33DEA003A34F0 /* MovieRequest.swift */,
-				F31FC0ED20E5A0790049B449 /* TrailerListRequest.swift */,
+				F31FC0ED20E5A0790049B449 /* TrailerRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -840,7 +840,7 @@
 				F30AF7D620E33A08003A34F0 /* MovieListRequest.swift in Sources */,
 				F30AF7A220E2E554003A34F0 /* MovieType.swift in Sources */,
 				F30AF7C220E2F561003A34F0 /* Cast.swift in Sources */,
-				F31FC0EE20E5A0790049B449 /* TrailerListRequest.swift in Sources */,
+				F31FC0EE20E5A0790049B449 /* TrailerRequest.swift in Sources */,
 				F30AF79020E2E0D3003A34F0 /* AppDelegate.swift in Sources */,
 				F30AF7AC20E2E705003A34F0 /* MovieCollectionViewCell.swift in Sources */,
 				F30AF74720E1A8E0003A34F0 /* ClaroChallenge.xcdatamodeld in Sources */,
