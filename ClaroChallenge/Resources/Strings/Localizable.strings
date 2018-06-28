@@ -10,6 +10,7 @@
 "mainTitle" = "NMDB";
 "upcomingMovies" = "Upcoming Movies";
 "popularMovies" = "Popular Movies";
+"notSupportLanguage" = "No description available in your language";
 
 // Errors
 "friendlyErrorTitle" = "=(";

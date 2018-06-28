@@ -34,6 +34,9 @@ class DetailsView: UIView {
         
         if let description = movie.overview {
             descriptionLabel.text = description
+            if description.isEmpty {
+               descriptionLabel.text = LocalizableStrings.notSupportLanguage.localize()
+            }
             descriptionLabel.sizeToFit()
         }
         

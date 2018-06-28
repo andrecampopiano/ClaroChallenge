@@ -11,8 +11,10 @@ import Foundation
 struct MovieRequest: Codable {
     
     let apiKey = ApiProvider.apiSecret
+    let language = ApiProvider.language
     
     enum CodingKeys: String, CodingKey {
         case apiKey = "api_key"
+        case language
     }
 }

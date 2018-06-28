@@ -4,6 +4,8 @@ line_length:
 
 disabled_rules: # rule identifiers to exclude from running
   - trailing_whitespace
+  - identifier_name
+  - colon
 
 opt_in_rules: # some rules are only opt-in
 

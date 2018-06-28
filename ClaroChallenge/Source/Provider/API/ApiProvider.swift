@@ -18,6 +18,9 @@ struct ApiProvider {
     /// Auth header Key
     static let apiSecret = "1f54bd990f1cdfb230adb312546d765d"
     
+    /// Language Device
+    static let language = Locale.current.languageCode
+    
     /// Shared Networking Provider used to access API Services
     static var sharedProvider: NetworkProvider {
         let urlSession = URLSession(configuration: URLSessionConfiguration.ephemeral)

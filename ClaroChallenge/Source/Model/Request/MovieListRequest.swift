@@ -11,6 +11,7 @@ import UIKit
 struct MovieListRequest: Codable {
     
     let apiKey = ApiProvider.apiSecret
+    let language = ApiProvider.language
     var page: Int?
     
     init(withPage page: Int = 1) {
@@ -19,6 +20,7 @@ struct MovieListRequest: Codable {
     
     enum CodingKeys: String, CodingKey {
         case apiKey = "api_key"
+        case language
         case page
     }
     
