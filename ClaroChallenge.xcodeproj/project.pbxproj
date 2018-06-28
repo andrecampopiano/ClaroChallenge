@@ -59,6 +59,9 @@
 		F30AF7F920E34937003A34F0 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30AF7D120E3395C003A34F0 /* Reachability.framework */; };
 		F30AF7FA20E34937003A34F0 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30AF7F520E33F91003A34F0 /* SwiftMessages.framework */; };
 		F30AF7FE20E34B77003A34F0 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F30AF7FD20E34B77003A34F0 /* ViewExtension.swift */; };
+		F31FC0EE20E5A0790049B449 /* TrailerListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC0ED20E5A0790049B449 /* TrailerListRequest.swift */; };
+		F31FC0F020E5A1770049B449 /* Trailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC0EF20E5A1770049B449 /* Trailer.swift */; };
+		F31FC0F220E5A2CA0049B449 /* TrailerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC0F120E5A2C90049B449 /* TrailerList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,6 +144,9 @@
 		F30AF7F320E33ED4003A34F0 /* HandleError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleError.swift; sourceTree = "<group>"; };
 		F30AF7F520E33F91003A34F0 /* SwiftMessages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMessages.framework; path = Carthage/Build/iOS/SwiftMessages.framework; sourceTree = "<group>"; };
 		F30AF7FD20E34B77003A34F0 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		F31FC0ED20E5A0790049B449 /* TrailerListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerListRequest.swift; sourceTree = "<group>"; };
+		F31FC0EF20E5A1770049B449 /* Trailer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trailer.swift; sourceTree = "<group>"; };
+		F31FC0F120E5A2C90049B449 /* TrailerList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailerList.swift; sourceTree = "<group>"; };
 		F744B52B33255318AB3E336F /* Pods-ClaroChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClaroChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClaroChallengeUITests/Pods-ClaroChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F94FC35F1BAE45F484A6F34A /* Pods-ClaroChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClaroChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClaroChallengeTests/Pods-ClaroChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -410,6 +416,7 @@
 			children = (
 				F30AF7D520E33A08003A34F0 /* MovieListRequest.swift */,
 				F30AF7EE20E33DEA003A34F0 /* MovieRequest.swift */,
+				F31FC0ED20E5A0790049B449 /* TrailerListRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -424,6 +431,8 @@
 				F30AF7C120E2F561003A34F0 /* Cast.swift */,
 				F30AF7C320E2F58B003A34F0 /* Crew.swift */,
 				F30AF7CF20E2F784003A34F0 /* MovieList.swift */,
+				F31FC0EF20E5A1770049B449 /* Trailer.swift */,
+				F31FC0F120E5A2C90049B449 /* TrailerList.swift */,
 			);
 			path = Movie;
 			sourceTree = "<group>";
@@ -821,6 +830,7 @@
 				F30AF7F420E33ED4003A34F0 /* HandleError.swift in Sources */,
 				F30AF79420E2E329003A34F0 /* HomeCollectionViewController.swift in Sources */,
 				F30AF79A20E2E44D003A34F0 /* IdentifiableExtension.swift in Sources */,
+				F31FC0F020E5A1770049B449 /* Trailer.swift in Sources */,
 				F30AF7ED20E33D8F003A34F0 /* BusinessError.swift in Sources */,
 				F30AF79E20E2E4EC003A34F0 /* Movie.swift in Sources */,
 				F30AF7B020E2EFE3003A34F0 /* CollectionViewExtension.swift in Sources */,
@@ -830,9 +840,11 @@
 				F30AF7D620E33A08003A34F0 /* MovieListRequest.swift in Sources */,
 				F30AF7A220E2E554003A34F0 /* MovieType.swift in Sources */,
 				F30AF7C220E2F561003A34F0 /* Cast.swift in Sources */,
+				F31FC0EE20E5A0790049B449 /* TrailerListRequest.swift in Sources */,
 				F30AF79020E2E0D3003A34F0 /* AppDelegate.swift in Sources */,
 				F30AF7AC20E2E705003A34F0 /* MovieCollectionViewCell.swift in Sources */,
 				F30AF74720E1A8E0003A34F0 /* ClaroChallenge.xcdatamodeld in Sources */,
+				F31FC0F220E5A2CA0049B449 /* TrailerList.swift in Sources */,
 				F30AF7E020E33BA5003A34F0 /* ApiError.swift in Sources */,
 				F30AF7BA20E2F3B0003A34F0 /* DetailsView.swift in Sources */,
 				F30AF7CB20E2F6D4003A34F0 /* HomeManager.swift in Sources */,
