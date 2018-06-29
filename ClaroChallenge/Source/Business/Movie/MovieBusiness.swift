@@ -12,7 +12,7 @@ import Reachability
 typealias MovieListUICallback = (@escaping () throws -> MovieList?) -> Void
 typealias MovieUICallback = (@escaping () throws -> Movie?) -> Void
 typealias CreditsUICallback = (@escaping () throws -> Credits?) -> Void
-typealias TrailerListUICallback = (@escaping () throws -> TrailerList) -> Void
+typealias TrailerListUICallback = (@escaping () throws -> TrailerList?) -> Void
 
 class MovieBusiness {
     
@@ -253,7 +253,6 @@ class MovieBusiness {
             }
         }
     }
-    
     
     /// Trailer Business Rules
     ///

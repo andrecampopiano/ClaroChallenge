@@ -73,6 +73,11 @@ class DetailsViewController: ElasticModalViewController, Identifiable, ViewCusto
             guard let creditsViewController = segue.destination as? CreditsCollectionViewController else { return }
             creditsViewController.movieId = self.movieId
         }
+        
+        if segue.identifier == TrailerCollectionViewController.segueIdentifier {
+            guard let trailerViewController = segue.destination as? TrailerCollectionViewController else { return }
+            trailerViewController.movieId = self.movieId
+        }
     }
     
 }

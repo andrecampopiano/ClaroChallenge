@@ -90,7 +90,6 @@ class MovieApiProvider: MovieApiProtocol {
         })
     }
     
-    
     /// Fetch Trailer Movie
     ///
     /// - Parameters:

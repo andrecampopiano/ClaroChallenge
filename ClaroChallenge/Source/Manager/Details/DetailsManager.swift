@@ -46,4 +46,21 @@ class DetailsManager: BaseManager {
             })
         }
     }
+    
+    /// Trailers Operation Manager
+    ///
+    /// - Parameters:
+    ///   - identifier: movie id
+    ///   - completion: completion callback
+    func fetchTrailers(identifier: Int,
+                       _ completion: @escaping TrailerListUICallback) {
+        addOperation {
+            self.business.trailersMovies(identifier: identifier, { ( trailers ) in
+                OperationQueue.main.addOperation {
+                    completion(trailers)
+                }
+            })
+        }
+    }
+    
 }

@@ -34,4 +34,9 @@ class MovieMockProvider: BaseMock, MovieApiProtocol {
         self.file = "credits"
         completion { try loadResponse() }
     }
+    
+    func trailer(withParameters parameters: NetworkParameters, movieId: String, _ completion: @escaping MovieCallback) {
+        self.file = "trailers"
+        completion { try loadResponse() }
+    }
 }
