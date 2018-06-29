@@ -2,30 +2,6 @@
 
 -----
 
-## [4.8.0 - Watch & Watching](https://github.com/onevcat/Kingfisher/releases/tag/4.8.0) (2018-05-15)
-
-#### Add
-* WKInterfaceImage setting image interface for watchOS.
-* 
-
----
-
-## [4.7.0 - Cancel All](https://github.com/onevcat/Kingfisher/releases/tag/4.7.0) (2018-04-06)
-
-#### Add
-* ImageDownloader now contains a method `cancelAll` to cancel all downloading tasks. [#894](https://github.com/onevcat/Kingfisher/pull/894)
-* Supports Swift 4.1 and Xcode 9.3. [#889](https://github.com/onevcat/Kingfisher/pull/889)
-
----
-
-## [4.6.4 - Customize Activity Indicator](https://github.com/onevcat/Kingfisher/releases/tag/4.6.4) (2018-03-20)
-
-#### Fix
-* An issue caused customize activity indicator not working for Swift 4. [#872](https://github.com/onevcat/Kingfisher/issues/872)
-* Specify Swift compiler version explicity in pod spec file for CocoaPods 1.4. [#875](https://github.com/onevcat/Kingfisher/pull/875)
-
----
-
 ## [4.6.3 - Clean Demo](https://github.com/onevcat/Kingfisher/releases/tag/4.6.3) (2018-03-01)
 
 #### Fix
