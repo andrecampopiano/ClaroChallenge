@@ -9,19 +9,11 @@
 import Foundation
 
 struct Trailer: Codable {
-    var identifier: String
-    var key: String
-    var name: String
-    var site: String
-    var size: Int
-    var type: String
+    var identifier: String?
+    var key: String?
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"
         case key
-        case name
-        case site
-        case size
-        case type
     }
 }

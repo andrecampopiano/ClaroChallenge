@@ -89,6 +89,6 @@ extension CreditsCollectionViewController {
                                  didEndDisplaying cell: UICollectionViewCell,
                                  forItemAt indexPath: IndexPath) {
         let cell: CreditsCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
-        cell.imageView.kf.cancelDownloadTask()
+        cell.imageView?.kf.cancelDownloadTask()
     }
 }

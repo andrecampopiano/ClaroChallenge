@@ -65,7 +65,7 @@
 		F31FC0FF20E5CE770049B449 /* Reachability.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30AF7D120E3395C003A34F0 /* Reachability.framework */; };
 		F31FC10020E5CE770049B449 /* SwiftMessages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30AF7F520E33F91003A34F0 /* SwiftMessages.framework */; };
 		F31FC10220E5DC090049B449 /* TrailerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC10120E5DC080049B449 /* TrailerCollectionViewCell.swift */; };
-		F31FC10520E5F7A90049B449 /* PhotoServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31FC10420E5F7A80049B449 /* PhotoServices.swift */; };
+		F3FA9C8820E92043002154E4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3FA9C8720E92043002154E4 /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,7 +156,7 @@
 		F31FC0FA20E5CE260049B449 /* Clappr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Clappr.framework; path = Carthage/Build/iOS/Clappr.framework; sourceTree = "<group>"; };
 		F31FC0FC20E5CE600049B449 /* Pods_ClaroChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_ClaroChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31FC10120E5DC080049B449 /* TrailerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailerCollectionViewCell.swift; sourceTree = "<group>"; };
-		F31FC10420E5F7A80049B449 /* PhotoServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoServices.swift; sourceTree = "<group>"; };
+		F3FA9C8720E92043002154E4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		F744B52B33255318AB3E336F /* Pods-ClaroChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClaroChallengeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClaroChallengeUITests/Pods-ClaroChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F94FC35F1BAE45F484A6F34A /* Pods-ClaroChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClaroChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ClaroChallengeTests/Pods-ClaroChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FA9C8820E92043002154E4 /* WebKit.framework in Frameworks */,
 				F31FC0FE20E5CE770049B449 /* Kingfisher.framework in Frameworks */,
 				F31FC0FF20E5CE770049B449 /* Reachability.framework in Frameworks */,
 				F31FC10020E5CE770049B449 /* SwiftMessages.framework in Frameworks */,
@@ -196,6 +197,7 @@
 		115AE1D2F26CC90298DB0417 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F3FA9C8720E92043002154E4 /* WebKit.framework */,
 				F31FC0FC20E5CE600049B449 /* Pods_ClaroChallenge.framework */,
 				F31FC0FA20E5CE260049B449 /* Clappr.framework */,
 				F31FC0F720E5C0C50049B449 /* Player.framework */,
@@ -352,7 +354,6 @@
 		F30AF78620E2E0D3003A34F0 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				F31FC10320E5F7A80049B449 /* Helper */,
 				F30AF79620E2E3CD003A34F0 /* Protocols */,
 				F30AF79520E2E391003A34F0 /* Extensions */,
 			);
@@ -574,14 +575,6 @@
 				F30AF7F120E33E51003A34F0 /* DetailsManager.swift */,
 			);
 			path = Details;
-			sourceTree = "<group>";
-		};
-		F31FC10320E5F7A80049B449 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				F31FC10420E5F7A80049B449 /* PhotoServices.swift */,
-			);
-			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -854,7 +847,6 @@
 				F30AF7E320E33C3B003A34F0 /* MovieApiProtocol.swift in Sources */,
 				F30AF7FE20E34B77003A34F0 /* ViewExtension.swift in Sources */,
 				F30AF7B720E2F34A003A34F0 /* ViewCustomizableExtension.swift in Sources */,
-				F31FC10520E5F7A90049B449 /* PhotoServices.swift in Sources */,
 				F30AF7F420E33ED4003A34F0 /* HandleError.swift in Sources */,
 				F30AF79420E2E329003A34F0 /* HomeCollectionViewController.swift in Sources */,
 				F30AF79A20E2E44D003A34F0 /* IdentifiableExtension.swift in Sources */,

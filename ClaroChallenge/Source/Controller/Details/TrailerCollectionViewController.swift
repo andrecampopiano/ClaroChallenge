@@ -7,13 +7,10 @@
 //
 
 import UIKit
-import Clappr
 
 class TrailerCollectionViewController: UICollectionViewController, Identifiable {
-
+    
     var movieId: Int?
-    var player: Player?
-    var options: Options = [:]
     
     private var trailers: [Trailer]? {
         didSet {
@@ -47,7 +44,6 @@ class TrailerCollectionViewController: UICollectionViewController, Identifiable 
             }
         }
     }
-    
 }
 
 // MARK: UICollectionViewDataSource
@@ -65,9 +61,8 @@ extension TrailerCollectionViewController {
                                  cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell: TrailerCollectionViewCell = collectionView.dequeueReusableCell(for: indexPath)
         if let trailer = trailers?[indexPath.row] {
-             cell.setup(trailer: trailer)
+            cell.setup(trailer: trailer)
         }
         return cell
     }
-    
 }

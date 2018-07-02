@@ -50,4 +50,14 @@ struct ApiProvider {
     static var profileBaseUrl: String {
         return "https://image.tmdb.org/t/p/w185"
     }
+    
+    /// trailer image base URL
+    static var trailerImageBaseUrl: String {
+        return "https://img.youtube.com/vi/%@/0.jpg"
+    }
+    
+    /// trailer video base URL
+    static var trailerVideoBaseUrl: String {
+        return "https://www.youtube.com/embed/"
+    }
 }
