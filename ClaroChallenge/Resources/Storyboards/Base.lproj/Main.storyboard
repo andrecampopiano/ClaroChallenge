@@ -164,19 +164,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JAB-iu-sDf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                                <subviews>
-                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="MHQ-qx-ztY">
-                                        <rect key="frame" x="169" y="388" width="37" height="37"/>
-                                    </activityIndicatorView>
-                                </subviews>
-                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="MHQ-qx-ztY" firstAttribute="centerY" secondItem="JAB-iu-sDf" secondAttribute="centerY" id="Kp5-s3-b3q"/>
-                                    <constraint firstItem="MHQ-qx-ztY" firstAttribute="centerX" secondItem="JAB-iu-sDf" secondAttribute="centerX" id="LbG-9t-wd1"/>
-                                </constraints>
-                            </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" indicatorStyle="white" translatesAutoresizingMaskIntoConstraints="NO" id="LDg-PQ-QAb">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <subviews>
@@ -331,6 +318,19 @@
                                     <constraint firstItem="bWO-7w-Bvc" firstAttribute="leading" secondItem="LDg-PQ-QAb" secondAttribute="leading" id="jf9-7p-Af5"/>
                                 </constraints>
                             </scrollView>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JAB-iu-sDf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="MHQ-qx-ztY">
+                                        <rect key="frame" x="169" y="388" width="37" height="37"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="MHQ-qx-ztY" firstAttribute="centerY" secondItem="JAB-iu-sDf" secondAttribute="centerY" id="Kp5-s3-b3q"/>
+                                    <constraint firstItem="MHQ-qx-ztY" firstAttribute="centerX" secondItem="JAB-iu-sDf" secondAttribute="centerX" id="LbG-9t-wd1"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <accessibility key="accessibilityConfiguration" identifier="detailsScreen"/>
@@ -526,6 +526,9 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="accessibilityIdentifier" value="TrailerCollection"/>
+                        </userDefinedRuntimeAttributes>
                         <connections>
                             <outlet property="dataSource" destination="bcB-si-kzQ" id="lMe-zc-RiV"/>
                             <outlet property="delegate" destination="bcB-si-kzQ" id="DeY-j9-FMf"/>
