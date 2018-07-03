@@ -12,6 +12,7 @@ before_install:
 
 script:
   - xcodebuild -version
+  - xcodebuild -allowProvisioningUpdates
   - xcodebuild -list
   - xcodebuild -project ClaroChallenge.xcodeproj clean build 
   - bundle install --deployment
