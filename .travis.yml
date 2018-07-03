@@ -14,7 +14,7 @@ before_install:
 script:
   - xcodebuild -version
   - xcodebuild -list
-  - xcodebuild -project ClaroChallenge.xcodeproj -scheme "ClaroChallenge" clean build 
+  - xcodebuild -project ClaroChallenge.xcodeproj clean build 
   - bundle install --deployment
   - bundle exec pod install
   - xcodebuild -list
